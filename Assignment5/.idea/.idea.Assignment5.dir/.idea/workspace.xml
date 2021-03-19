@@ -6,29 +6,40 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e04ab37-c1ee-4ec8-a40b-ba6c1d62aca9" name="Default Changelist" comment="" />
+    <list default="true" id="f045b82d-8a0a-4bfb-8eb6-1490d1eaee56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Assignment-5.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Assignment-5.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1pzPIgxqIniVGVaJyuGGc1yGEp4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="ProjectId" id="1pzSe6h8Md43GUwTUNeQ4U40u2I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -37,28 +48,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e04ab37-c1ee-4ec8-a40b-ba6c1d62aca9" name="Default Changelist" comment="" />
-      <created>1616182867419</created>
+      <changelist id="f045b82d-8a0a-4bfb-8eb6-1490d1eaee56" name="Default Changelist" comment="" />
+      <created>1616184517783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616182867419</updated>
-      <workItem from="1616182868582" duration="1000" />
-      <workItem from="1616182910047" duration="46000" />
+      <updated>1616184517783</updated>
+      <workItem from="1616184518900" duration="16000" />
     </task>
-    <task id="LOCAL-00001" summary="- Initial Commit">
-      <created>1616182941856</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1616182941856</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -72,15 +74,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="- Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Initial Commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1616182945334">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616182945334" />
   </component>
 </project>
