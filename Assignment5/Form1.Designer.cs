@@ -42,6 +42,8 @@ namespace Assignment5
             this.complimentaryRadioButton = new System.Windows.Forms.RadioButton();
             this.noneRadioButton = new System.Windows.Forms.RadioButton();
             this.partsAndLaborGroupBox = new System.Windows.Forms.GroupBox();
+            this.laborHoursUserInputTextBox = new System.Windows.Forms.TextBox();
+            this.partsUserInputTextBox = new System.Windows.Forms.TextBox();
             this.laborLabel = new System.Windows.Forms.Label();
             this.partsLabel = new System.Windows.Forms.Label();
             this.miscGroupBox = new System.Windows.Forms.GroupBox();
@@ -64,8 +66,6 @@ namespace Assignment5
             this.transmissionFlushCheckBox = new System.Windows.Forms.CheckBox();
             this.radiatorFlushCheckBox = new System.Windows.Forms.CheckBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.partsUserInputTextBox = new System.Windows.Forms.TextBox();
-            this.laborHoursUserInputTextBox = new System.Windows.Forms.TextBox();
             this.oilAndLubeGroupBox.SuspendLayout();
             this.lubeJobGroupBox.SuspendLayout();
             this.carwashGroupBox.SuspendLayout();
@@ -116,7 +116,6 @@ namespace Assignment5
             this.fullSyntheticRadioButton.Name = "fullSyntheticRadioButton";
             this.fullSyntheticRadioButton.Size = new System.Drawing.Size(130, 17);
             this.fullSyntheticRadioButton.TabIndex = 10;
-            this.fullSyntheticRadioButton.TabStop = true;
             this.fullSyntheticRadioButton.Text = "Full Synthetic ($20.00)";
             this.fullSyntheticRadioButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.fullSyntheticRadioButton.UseVisualStyleBackColor = true;
@@ -128,7 +127,6 @@ namespace Assignment5
             this.mixedRadioButton.Name = "mixedRadioButton";
             this.mixedRadioButton.Size = new System.Drawing.Size(95, 17);
             this.mixedRadioButton.TabIndex = 9;
-            this.mixedRadioButton.TabStop = true;
             this.mixedRadioButton.Text = "Mixed ($10.00)";
             this.mixedRadioButton.UseVisualStyleBackColor = true;
             // 
@@ -148,7 +146,6 @@ namespace Assignment5
             this.regularRadioButton.Name = "regularRadioButton";
             this.regularRadioButton.Size = new System.Drawing.Size(98, 17);
             this.regularRadioButton.TabIndex = 7;
-            this.regularRadioButton.TabStop = true;
             this.regularRadioButton.Text = "Regular ($0.00)";
             this.regularRadioButton.UseVisualStyleBackColor = true;
             // 
@@ -231,6 +228,20 @@ namespace Assignment5
             this.partsAndLaborGroupBox.TabIndex = 1;
             this.partsAndLaborGroupBox.TabStop = false;
             this.partsAndLaborGroupBox.Text = "Parts and Labor";
+            // 
+            // laborHoursUserInputTextBox
+            // 
+            this.laborHoursUserInputTextBox.Location = new System.Drawing.Point(68, 52);
+            this.laborHoursUserInputTextBox.Name = "laborHoursUserInputTextBox";
+            this.laborHoursUserInputTextBox.Size = new System.Drawing.Size(67, 20);
+            this.laborHoursUserInputTextBox.TabIndex = 9;
+            // 
+            // partsUserInputTextBox
+            // 
+            this.partsUserInputTextBox.Location = new System.Drawing.Point(68, 24);
+            this.partsUserInputTextBox.Name = "partsUserInputTextBox";
+            this.partsUserInputTextBox.Size = new System.Drawing.Size(67, 20);
+            this.partsUserInputTextBox.TabIndex = 8;
             // 
             // laborLabel
             // 
@@ -446,20 +457,6 @@ namespace Assignment5
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // partsUserInputTextBox
-            // 
-            this.partsUserInputTextBox.Location = new System.Drawing.Point(68, 24);
-            this.partsUserInputTextBox.Name = "partsUserInputTextBox";
-            this.partsUserInputTextBox.Size = new System.Drawing.Size(67, 20);
-            this.partsUserInputTextBox.TabIndex = 8;
-            // 
-            // laborHoursUserInputTextBox
-            // 
-            this.laborHoursUserInputTextBox.Location = new System.Drawing.Point(68, 52);
-            this.laborHoursUserInputTextBox.Name = "laborHoursUserInputTextBox";
-            this.laborHoursUserInputTextBox.Size = new System.Drawing.Size(67, 20);
-            this.laborHoursUserInputTextBox.TabIndex = 9;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -491,7 +488,6 @@ namespace Assignment5
             this.flushesGroupBox.ResumeLayout(false);
             this.flushesGroupBox.PerformLayout();
             this.ResumeLayout(false);
-
         }
 
         #endregion
