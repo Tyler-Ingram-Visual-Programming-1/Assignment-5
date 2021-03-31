@@ -29,7 +29,7 @@ namespace Assignment5
              taxCharges = TaxCharges();
              carWashCharges = CarWashCharges();
              totalCharges = TotalCharges();
-             DisplayOutput(otherCharges+flushCharges+oilLubeCharges);
+             DisplayOutput();
         }
         private void clearButton_Click(object sender, EventArgs e)
         {
@@ -42,17 +42,17 @@ namespace Assignment5
         }
         private double OilLubeCharges()
         {
-            oilLubeCharges = 0;
+            double charge = 0;
             if (oilChangeCheckBox.Checked)
             {
                 regularRadioButton.Enabled = true;
                 mixedRadioButton.Enabled = true;
                 fullSyntheticRadioButton.Enabled = true;
-                oilLubeCharges += 26;
+                charge += 26;
                 
-                if (mixedRadioButton.Checked) oilLubeCharges += 10;
+                if (mixedRadioButton.Checked) charge += 10;
                 
-                else if (fullSyntheticRadioButton.Checked) oilLubeCharges += 20;
+                else if (fullSyntheticRadioButton.Checked) charge += 20;
                 
             }
             /* Not in the instructions for the assignment, but this lets the user know they need to check the oil change
@@ -64,28 +64,28 @@ box if they plan to purchase an oil change. */
                 oilChangeCheckBox.Focus();
                 return 0;
             }
-            if (lubeJobCheckBox.Checked) oilLubeCharges += 18;
-            return oilLubeCharges;
+            if (lubeJobCheckBox.Checked) charge += 18;
+            return charge;
         }
         private double FlushCharges()
         {
-            flushCharges = 0;
-            if (radiatorFlushCheckBox.Checked) flushCharges += 30;
-            if (transmissionFlushCheckBox.Checked) flushCharges += 80;
-            return flushCharges;
+            double charges = 0;
+            if (radiatorFlushCheckBox.Checked) charges += 30;
+            if (transmissionFlushCheckBox.Checked) charges += 80;
+            return charges;
         }
         private double MiscCharges()
         {
-            miscCharges = 0;
-            if (inspectionCheckBox.Checked) miscCharges += 15;
-            if (replaceMufflerCheckBox.Checked) miscCharges += 100;
-            if (tireRotationCheckBox.Checked) miscCharges += 20;
-            return miscCharges;
+            double charges = 0;
+            if (inspectionCheckBox.Checked) charges += 15;
+            if (replaceMufflerCheckBox.Checked) charges += 100;
+            if (tireRotationCheckBox.Checked) charges += 20;
+            return charges;
         }
 
         private double OtherCharges()
         {
-            otherCharges = 0;
+            double charges = 0;
             if (double.TryParse(partsUserInputTextBox.Text, out partCharges))
             {
                 if (partCharges < 0)
@@ -110,29 +110,29 @@ box if they plan to purchase an oil change. */
             {
                 MessageBox.Show("Invalid input for the hours used. Please input an integer.");
             }
-            otherCharges = partCharges + laborHours * 20;
-            return otherCharges; 
+            charges = partCharges + laborHours * 20;
+            return charges; 
         }
         private double TaxCharges()
         {
-            taxCharges = partCharges * 0.06;
-            return taxCharges;
+            double charges = partCharges * 0.06;
+            return charges;
         }
         private double CarWashCharges()
         {
-            carWashCharges = 0;
-            if (noneRadioButton.Checked) carWashCharges += 0;
-            else if (complimentaryRadioButton.Checked) carWashCharges += 0;
-            else if (fullServiceRadioButton.Checked) carWashCharges += 6;
-            else if(premiumRadioButton.Checked) carWashCharges += 9;
-            return carWashCharges;
+            double charges = 0;
+            if (noneRadioButton.Checked) charges += 0;
+            else if (complimentaryRadioButton.Checked) charges += 0;
+            else if (fullServiceRadioButton.Checked) charges += 6;
+            else if(premiumRadioButton.Checked) charges += 9;
+            return charges;
         }
         private double TotalCharges()
         {
-            totalCharges = oilLubeCharges + flushCharges + miscCharges + otherCharges + taxCharges + carWashCharges;
-            return totalCharges;
+            double charges = oilLubeCharges + flushCharges + miscCharges + otherCharges + taxCharges + carWashCharges;
+            return charges;
         }
-        private void DisplayOutput(double output)
+        private void DisplayOutput()
         {
           // display output in summary groupbox
             serviceAndLaborOutputLabel.Text = (totalCharges-partCharges-taxCharges).ToString("c");

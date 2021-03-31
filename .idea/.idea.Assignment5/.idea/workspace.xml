@@ -23,17 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caf1fd27-af1b-4c31-bc08-f00fa44fcebc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment5.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Assignment5/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Assignment5/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Assignment5/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Assignment5/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Assignment5/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Assignment5/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment5/.idea/.idea.Assignment5.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/.idea/.idea.Assignment5.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment5/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment5/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/Form1.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/bin/Debug/Assignment5.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/bin/Debug/Assignment5.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/bin/Debug/Assignment5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/bin/Debug/Assignment5.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment5/obj/Debug/Assignment5.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/obj/Debug/Assignment5.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/obj/Debug/Assignment5.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/obj/Debug/Assignment5.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/obj/Debug/Assignment5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/obj/Debug/Assignment5.pdb" afterDir="false" />
     </list>
@@ -49,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assignment5/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assignment5/Properties/Settings.settings" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assignment5/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/04/72e39659/Double.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assignment5/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -116,7 +111,8 @@
       <updated>1616184534584</updated>
       <workItem from="1616184536547" duration="786000" />
       <workItem from="1616303911339" duration="17000" />
-      <workItem from="1616303950580" duration="3591000" />
+      <workItem from="1616303950580" duration="4234000" />
+      <workItem from="1616712045973" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="- Created UI with basic functionality">
       <created>1616185264602</created>
@@ -125,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616185264602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Logic added to methods">
+      <created>1616307563112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616307563112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +152,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="- Created UI with basic functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Created UI with basic functionality" />
+    <MESSAGE value="Logic added to methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logic added to methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="340" key="#Notifications" timestamp="1616303922316">
@@ -160,26 +164,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616184586185" />
-    <state width="1892" height="6" key="GridCell.Tab.0.bottom" timestamp="1616307526383">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="6" key="GridCell.Tab.0.bottom" timestamp="1616376899898">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1892" height="6" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616307526383" />
-    <state width="1892" height="6" key="GridCell.Tab.0.center" timestamp="1616307526382">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="6" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@1920.0.1920.1040" timestamp="1616376899898" />
+    <state width="1877" height="6" key="GridCell.Tab.0.center" timestamp="1616376899897">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1892" height="6" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616307526382" />
-    <state width="1892" height="6" key="GridCell.Tab.0.left" timestamp="1616307526382">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="6" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@1920.0.1920.1040" timestamp="1616376899897" />
+    <state width="1877" height="6" key="GridCell.Tab.0.left" timestamp="1616376899897">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1892" height="6" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616307526382" />
-    <state width="1892" height="6" key="GridCell.Tab.0.right" timestamp="1616307526383">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="6" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@1920.0.1920.1040" timestamp="1616376899897" />
+    <state width="1877" height="6" key="GridCell.Tab.0.right" timestamp="1616376899898">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1892" height="6" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616307526383" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1616185265632">
+    <state width="1877" height="6" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@1920.0.1920.1040" timestamp="1616376899898" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1616307582372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616185265632" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.-122.1920.1160/0.0.1920.1040@0.0.1920.1040" timestamp="1616307582372" />
     <state x="685" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616185287992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
